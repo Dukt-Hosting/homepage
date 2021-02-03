@@ -1,65 +1,85 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import NavBar from '../componenets/NavBar.js'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Dukt Hosting</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <NavBar brand="Dukt Hosting"></NavBar>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Dukt Hosting
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          The simple way to launch apps.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://panel.dukthosting.net/" className={styles.card}>
+            <h3>Panel</h3>
+            <p>Do panel shiz here</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://vps.fadedmax.net" className={styles.card}>
+            <h3>Ddos max here</h3>
+            <p>DDOS HIM</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://cmpc.live"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Go check out cmpc</h3>
+            <p>very cool guy agreed.</p>
+          </a>
+
+          <a
+            href="
+            https://google.com"
+            className={styles.card}
+          >
+            <h3>Google your fucking python errors</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Google them before asking us with fucking shit questions
             </p>
-          </a>
+            </a>
+          <a
+            href="
+            https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            className={styles.card}
+          >
+            <h3>rick</h3>
+            <p>
+              rick is located here
+            </p>
+            </a>
         </div>
-      </main>
+        <style jsx> { ` 
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+          li {
+            float: left;
+          }
+
+          li a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+          }
+        `}</style>
+      </main>
     </div>
   )
 }
