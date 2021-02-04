@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-boots
 
 export default function NavBar(props) {
     return(
-      <Navbar bg="light" expand="lg">
+      <Navbar nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <Navbar.Brand href="/">{props.brand}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
