@@ -27,10 +27,7 @@ export default function Home() {
             <p>Do panel shiz here</p>
           </a>
 
-          <a href="https://vps.fadedmax.net" className={styles.card}>
-            <h3>Ddos max here</h3>
-            <p>DDOS HIM</p>
-          </a>
+        
 
           <a
             href="https://cmpc.live"

@@ -2,7 +2,7 @@ import NavBar from '../componenets/NavBar.js'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { CardDeck, Card, Container } from 'react-bootstrap'
- 
+
 export default function Pricing () {
     return (
       <div className={styles.container}>
@@ -11,11 +11,11 @@ export default function Pricing () {
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <NavBar brand="Dukt Hosting"></NavBar>
+        <NavBar brand="Pricing - Dukt Hosting"></NavBar>
 
         <main className={styles.main}>
             <h1 className={styles.title}>
-                Welcome to Dukt Hosting
+                Dukt Hosting pricing
             </h1>
 
             <p className={styles.description}>
@@ -26,39 +26,35 @@ export default function Pricing () {
                 <CardDeck>
                     <Card>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Placeholder</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                          Placeholder
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
                     <Card>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Placeholder</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            Placeholder
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
                     <Card>
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Placeholder</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                            Placeholder
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
                 </CardDeck>

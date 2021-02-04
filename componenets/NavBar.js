@@ -9,16 +9,15 @@ export default function NavBar(props) {
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown title="Fax" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#">Max</NavDropdown.Item>
+              <NavDropdown.Item href="#">Is</NavDropdown.Item>
+              <NavDropdown.Item href="#">a</NavDropdown.Item>
+              <NavDropdown.Item href="#">Bitch</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Button variant="outline-primary" href="https://panel.dukthosting.net">panel</Button>
+          <Button variant="outline-primary" href="https://panel.dukthosting.net">Panel</Button>
         </Navbar.Collapse>
       </Navbar>
     )
-}    
+}

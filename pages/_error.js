@@ -2,7 +2,7 @@
 function ErrorPage({ Component, pageProps }) {
   return (
       <h1>
-          OH FUCK OH SHIT
+        Something went wrong :c, please try again later.
       </h1>
   )
 }
