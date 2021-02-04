@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          The simple way to launch apps.
+          The simple way to deploy your apps.
         </p>
 
         <div className={styles.grid}>
@@ -61,24 +61,6 @@ export default function Home() {
             </p>
             </a>
         </div>
-        <style jsx> { ` 
-          ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-          }
-
-          li {
-            float: left;
-          }
-
-          li a {
-            display: block;
-            padding: 8px;
-            background-color: #dddddd;
-          }
-        `}</style>
       </main>
     </div>
   )
