@@ -7,11 +7,11 @@ export default function Pricing () {
     return (
       <div className={styles.container}>
         <Head>
-            <title>Dukt Hosting</title>
+            <title>Pricing - Dukt Hosting</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <NavBar brand="Pricing - Dukt Hosting"></NavBar>
+        <NavBar brand="Dukt Hosting"></NavBar>
 
         <main className={styles.main}>
             <h1 className={styles.title}>
