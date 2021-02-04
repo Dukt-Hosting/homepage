@@ -12,6 +12,7 @@
     "@zeit/next-less": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.6.0",
+    "bootstrap-4-dark-mode": "^1.0.1",
     "next": "10.0.6",
     "next-images": "^1.7.0",
     "react": "17.0.1",
