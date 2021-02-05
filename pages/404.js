@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar.js'
 
 function FourOFourPage({ Component, pageProps }) {
   return (
-      <div style={styles.container
+      <div style={styles.container}>
           <Head>
               <title>Home - Dukt Hosting</title>
               <link rel="icon" href="/favicon.ico" />
