@@ -1,13 +1,13 @@
-import NavBar from '../componenets/NavBar.js'
+import NavBar from '../components/NavBar.js'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { CardDeck, Card, Container } from 'react-bootstrap'
- 
+
 export default function Pricing () {
     return (
       <div className={styles.container}>
         <Head>
-            <title>Dukt Hosting</title>
+            <title>Pricing - Dukt</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
@@ -15,50 +15,43 @@ export default function Pricing () {
 
         <main className={styles.main}>
             <h1 className={styles.title}>
-                Welcome to Dukt Hosting
+                Pricing
             </h1>
 
-            <p className={styles.description}>
-                The simple way to deploy your apps.
-            </p>
-
-            <Container fluid="lg">
-                <CardDeck>
-                    <Card>
+            <Container fluid>
+                <CardDeck style={{ marginTop: "69px", marginRight: "10%", marginLeft: "10%"}}>
+                    <Card style={{backgroundColor: "#292d30" , borderColor:"#eaeaea", padding:"25px"}} >
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Basic Website Hosting</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                          Static webhosting using NGINX.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
-                    <Card>
+                    <Card style={{backgroundColor: "#292d30" , borderColor:"#eaeaea", padding:"25px"}} >
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Script Hosting</Card.Title>
                         <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                            content.{' '}
+                            Node.JS, Python, and other language hosting. <br></br>
+                            Includes a free PostgreSQL database.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
-                    <Card>
+                    <Card style={{backgroundColor: "#292d30" , borderColor:"#eaeaea", padding:"25px"}} >
                         <Card.Body>
-                        <Card.Title>Card title</Card.Title>
+                        <Card.Title>Docker Container</Card.Title>
                         <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
+                            Root access to a private docker container.
                         </Card.Text>
                         </Card.Body>
                         <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        <small className="text-muted">Placeholder</small>
                         </Card.Footer>
                     </Card>
                 </CardDeck>
