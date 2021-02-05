@@ -12,11 +12,11 @@ function ErrorPage({ Component, pageProps }) {
     
           <NavBar brand="Dukt Hosting"></NavBar>
     
-          <Main className={styles.main}>
+          <main className={styles.main}>
               <h2>
                   An error occured in your request, try again later.
               </h2>
-          </Main>
+          </main>
       </div>
   )
 }
