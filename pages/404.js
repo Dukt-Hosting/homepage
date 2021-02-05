@@ -7,6 +7,7 @@ function FourOFourPage({ Component, pageProps }) {
       <div className={styles.container}>
           <Head>
               <title>Home - Dukt Hosting</title>
+              <link rel="icon" href="/favicon.ico" />
           </Head>
     
           <NavBar brand="Dukt Hosting"></NavBar>
