@@ -15,7 +15,7 @@ function ErrorPage({ Component, pageProps }) {
           <Main className={styles.main}>
               <h2>
                   An error occured in your request, try again later.
-              <h3>
+              </h2>
           </Main>
       </div>
   )
