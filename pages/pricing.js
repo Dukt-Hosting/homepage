@@ -18,7 +18,7 @@ export default function Pricing () {
                 Pricing
             </h1>
 
-            <Container fluid>
+            <Container fluid style={{ width: "100%" }}>
                 <CardDeck style={{ marginTop: "69px", marginRight: "10%", marginLeft: "10%"}}>
                     <Card style={{backgroundColor: "#292d30" , borderColor:"#eaeaea", padding:"25px"}} >
                         <Card.Body>
