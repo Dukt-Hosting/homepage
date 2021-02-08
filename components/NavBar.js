@@ -1,6 +1,10 @@
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import { signIn, signOut, useSession } from 'next-auth/client'
 
 export default function NavBar(props) {
+    
+    const [ session, loading ] = useSession()
+    
     return(
       <Navbar nav expand="lg" width="full" bg="dark" variant="dark">
         <Navbar.Brand href="/">{props.brand}</Navbar.Brand>
