@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar.js'
+import { signIn, signOut, useSession } from 'next-auth/client'
+
 
 export default function Home() {
+  
+  const [ session, loading ] = useSession()
+  
   return (
     <div className={styles.container}>
       <Head>
